@@ -60,7 +60,7 @@ const Createproduct = () => {
                        onChange={(e) => setNewProduct({...newProduct, image: e.target.value})}
                        className='bg-slate-800 border border-solid text-slate-100 rounded h-9 p-3' 
                        type="text" placeholder='Image URL' />
-                <button onClick={handleAddProduct} className='bg-cyan-400 rounded rounded h-10'>Add Product</button>
+                <button onClick={handleAddProduct} className='bg-cyan-400 rounded h-10'>Add Product</button>
             </div>
         </div>
         {visible && (<div className='flex justify-center items-end mt-20 p-20'>
